@@ -1,0 +1,5 @@
+Configuring deepseq-1.4.1.2...
+setup-Simple-Cabal-1.22.5.0-x86_64-osx-ghc-7.10.3: '/usr/local/bin/ghc-pkg'
+exited with an error:
+ghc-pkg: ./.cabal-sandbox/x86_64-osx-ghc-7.10.3-packages.conf.d:
+getDirectoryContents: does not exist (No such file or directory)
