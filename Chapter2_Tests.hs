@@ -1,3 +1,5 @@
+module Chapter2_Tests where
+
 import Test.HUnit
 import Chapter2
 
@@ -16,6 +18,3 @@ test3 = TestCase $ assertEqual "Should calculate average" (Chapter2.average [2, 
 test4 = TestCase $ assertEqual "Should calculate factorial" (Chapter2.factorial 10) 3628800
 
 tests = TestList [test1, test2, test3, test4]
-
-main = runTestTT tests
-
