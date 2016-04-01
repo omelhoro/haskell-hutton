@@ -5,7 +5,7 @@ import Chapter2
 
 test1 = TestList
   (map (\(a, b, out) -> TestCase $ assertEqual "equal" (Chapter2.add a b) out)
-    [(1, 2, 4),
+    [(1, 2, 3),
     (4, 5, 9),
     (9, 18, 27),
     (0, 0, 0)
