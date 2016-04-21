@@ -1,0 +1,8 @@
+build:
+  image: haskell
+  commands:
+    - cabal update
+    - cabal sandbox init
+    - cabal install
+    - cabal configure
+    - cabal test
