@@ -6,3 +6,9 @@ build:
     - cabal install
     - cabal configure
     - cabal test
+publish:
+  docker:
+    username: $$DOCKER_USERNAME
+    password: $$DOCKER_PASSWORD
+    email: $$DOCKER_EMAIL
+    repo: omelhoro1/haskell-hutton
