@@ -11,4 +11,5 @@ publish:
     username: $$DOCKER_USERNAME
     password: $$DOCKER_PASSWORD
     email: $$DOCKER_EMAIL
+    storage_driver: vfs
     repo: omelhoro1/haskell-hutton
