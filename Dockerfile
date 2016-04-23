@@ -1,4 +1,4 @@
 FROM haskell
-COPY ./ /app
 WORKDIR /app
+COPY ./ /app
 RUN stack test
