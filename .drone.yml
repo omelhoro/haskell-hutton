@@ -1,15 +1,4 @@
 build:
-  image: haskell
+  image: haskell:7.10.3
   commands:
-    - cabal update
-    - cabal sandbox init
-    - cabal install
-    - cabal configure
-    - cabal test
-publish:
-  docker:
-    username: $$DOCKER_USERNAME
-    password: $$DOCKER_PASSWORD
-    email: $$DOCKER_EMAIL
-    storage_driver: vfs
-    repo: omelhoro1/haskell-hutton
+    - stack test
